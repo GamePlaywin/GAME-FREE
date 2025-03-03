@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d85c52;
+}
+
+/* Game Info Section */
+.game-info {
+    padding: 50px 0;
+    background-color: #252525;
+    text-align: center;
+}
+
+.game-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.features {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.features h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Game Gallery */
+.game-gallery {
+    padding: 50px 0;
+    background-color: #333;
+    text-align: center;
+}
+
+.game-gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.game-gallery .gallery img {
+    width: 22%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.game-gallery .gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Download Section */
+.download-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #252525;
+}
+
+.download-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.download-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #6e6a6a;
+}
+
+footer p {
+    font-size: 1em;
+    color: #04041d;
+}
